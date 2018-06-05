@@ -1,7 +1,12 @@
-package exercise;
+package exercise.Chapter2;
 
 import java.util.Arrays;
 
+/**
+ * 2.1-2
+ * Rewrite the INSERTION-SORT procedure to sort into nonincreasing instead of nondecreasing
+ * order.
+ */
 public class Exercises2$1_2 {
     public static void main(String[] args) {
         insertionSort(new int[]{ 31, 41, 59, 26, 41, 58});

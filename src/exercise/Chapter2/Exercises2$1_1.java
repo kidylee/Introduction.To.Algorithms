@@ -1,7 +1,12 @@
-package exercise;
+package exercise.Chapter2;
 
 import java.util.Arrays;
 
+/**
+ * 2.1-1
+ * Using Figure 2.2 as a model, illustrate the operation of INSERTION-SORT on the
+ * array A D h31; 41; 59; 26; 41; 58i.
+ */
 public class Exercises2$1_1 {
     public static void main(String[] args) {
         insertionSort(new int[]{ 31, 41, 59, 26, 41, 58});
