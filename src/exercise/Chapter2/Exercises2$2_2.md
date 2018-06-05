@@ -1,4 +1,4 @@
-### 2.2-1
+### 2.2-2
 Consider sorting n numbers stored in array A by first finding the smallest element
 of A and exchanging it with the element in AOE1. Then find the second smallest
 element of A, and exchange it with A[2]. Continue in this manner for the first n1
@@ -14,5 +14,4 @@ Because when the i equals to A.length, meaning the last of the element, is the l
 
 #### Give the best-case and worst-case running times of selection sort in Θ-notation.
 
-The best-case is every elements are in ascending order which is Θ(n). 
-The worst-case is every elements are in descending order which is Θ(n*logn).
+Θ(n^2). 
